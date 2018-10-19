@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&amp;subset=cyrillic" rel="stylesheet"> 
+  <link rel="stylesheet" href="main.css">
+  <title>Author</title>
+</head>
+<body>
+
+  <header>
+    <div class="header_container">
+      <div class="logo">
+        <img src="img/logo.png" alt="Author">
+      </div>
+      <input type="checkbox" id="menu-checkbox">
+      <nav role="navigation">
+        <label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
+        <ul class="main-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="top-slide">
+      <div class="top-container">
+        <h2>This is a main heading</h2>
+        <h3>Lorem Ipsum is simply dummy text <br> of the printing</h3>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="spec-containet">
+      <div class="spec-cards">
+        <div class="card" >
+          <img src="img/1.png" alt="">
+          <h4>Custom Designs</h4>
+          <p>Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry. <br>Lorem Ipsum has been</p>
+           <div class="more">
+               <a href="#"> Read More</a>
+           </div>
+
+            </div>
+       
+        <div class="card">
+            <img src="img/2.png" alt="">
+            <h4>Web Design</h4>
+            <p>Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry. <br>Lorem Ipsum has been</p>
+            <div class="more">
+                <a href="#"> Read More</a>
+            </div>           
+           
+           
+          </div>
+          <div class="card">
+              <img src="img/3.png" alt="">
+              <h4>Blog Pages</h4>
+              <p>Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry. <br>Lorem Ipsum has been</p>
+              <div class="more">
+                  <a href="#"> Read More</a>
+              </div>             
+              
+            </div>
+            <div class="card">
+                <img src="img/4.png" alt="">
+                <h4>Mobile friendly</h4>
+                <p>Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry. <br>Lorem Ipsum has been</p>
+                <div class="more">
+                    <a href="#"> Read More</a>
+                </div>               
+                
+              </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="Portfolio">
+      <h2>Portfolio</h2>
+      <div class="btn">
+        <button id="showall">Отобразить все</button>
+        <button id="words">Земля</button>
+        <button id="live">Растения</button>
+        <button id="other">Прочее</button>
+
+      </div>
+
+          <div class="fotos">
+            <div class="foto words"><img src="img/MOUTH.jpg" alt="Горы"></div>
+            <div class="foto other"><img src="img/foto.jpg" alt="Фотограф"></div>
+            <div class="foto live"><img src="img/fruets.jpg" alt="Фрукты"></div>
+            <div class="foto other"><img src="img/gaem.jpg" alt="Игра"></div>
+            <div  class="foto words"><img src="img/city.jpg" alt="Город"></div>
+            <div class="foto live"><img src="img/floveir.jpg" alt="Цветы"></div>
+        </div>
+
+    </section>
+
+    <footer>
+      <div class="p-footer">Contact Us</div>
+      <div class="inbox">
+        <p class="inbox-rec">
+          <input class="footer_rec footer_rec_1"  type="text" placeholder="Name">
+          <input class="footer_rec" type="email" placeholder="Email">  
+        </p>
+        <p class="inbox-comment">
+          <textarea name="Message" id="" cols="4" rows="1" style="width: 570px; height: 180px;" placeholder="Message"></textarea>
+        </p>
+        <button class="send">Send</button>
+      </div>
+    </footer>
+
+  </main>
+
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
